@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TeamNames">
+
+    <EditText
+        android:id="@+id/et_team1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter Name Team1"/>
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/et_team2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name Team2"/>
+
+        <Button
+            android:elevation="8dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:id="@+id/startCounting"
+            app:backgroundTint="@null"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/button_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Counting"/>
+
+
+
+
+</LinearLayout>
